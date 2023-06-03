@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.boxbox{
+    border-radius: 16px;
+    height: 170px;
+}
+
+@media only screen and (max-width:768px){
+    .boxbox {
+        height: 130px;
+        
+    }
+}
+
+@media only screen and (max-width:768px){
+    .col-1 {
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .bobo {
+        flex-direction: column;
+        gap: 45px;
+    }
+}
